@@ -5,6 +5,18 @@ This project is a simplified “Job Runner” platform where users can submit jo
 ---
 
 ## How to run the application
+
+### Requirements
+Make sure you have the following installed:
+- Node.js (v18+)
+- npm (comes with Node.js)
+
+You can check your versions with:
+
+Open a terminal:
+node -v
+npm -v
+
 ### Backend
 Open a terminal:
 - cd backend 
