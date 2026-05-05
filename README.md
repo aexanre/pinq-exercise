@@ -109,7 +109,6 @@ Basic validation is handled on the frontend to prevent invalid inputs.
 ### Trade-offs made
 - Used a JSON file instead of a real database for simplicity and speed
 - Implemented a simple asynchronous worker instead of a full queue system
-- Word counting is implemented using a simple space-based split; we should instead put each word into an array and look at its length.
 
 The current worker processes one job at a time, which keeps the implementation simple but limits scalability.
 

@@ -22,7 +22,7 @@ function executeJob(job: Job): any {
         case "reverse_string":
             return job.input.split("").reverse().join("");
         case "count_words":
-            return job.input.split(" ").length;
+            return job.input.trim().split(/\s+/).length;
         default:
             throw new Error("Unknown operation");
     }
